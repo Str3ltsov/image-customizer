@@ -16,11 +16,6 @@ class ProductBodyColorFactory extends Factory
         'Black',
         'White'
     ];
-    private array $images = [
-        'assets/volvo_s60/red.avif',
-        'assets/volvo_s60/black.avif',
-        'assets/volvo_s60/white.avif'
-    ];
 
     /**
      * Define the model's default state.
@@ -31,7 +26,6 @@ class ProductBodyColorFactory extends Factory
     {
         $bodyColor = [
             'name' => $this->names[self::$counter],
-            'image' => $this->images[self::$counter],
             'is_default' => self::$counter === 0 ? true : false,
             'product_id' => 1
         ];
