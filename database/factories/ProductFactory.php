@@ -10,17 +10,8 @@ use Illuminate\Database\Eloquent\Factories\Factory;
  */
 class ProductFactory extends Factory
 {
-    /**
-     * The name of the factory's corresponding model.
-     *
-     * @var class-string<\Illuminate\Database\Eloquent\Model>
-     */
-    protected $model = Product::class;
-
     private static int $counter = 0;
-    private array $names = [
-        'Audi A6'
-    ];
+    private array $names = ['Volvo S60'];
 
     /**
      * Define the model's default state.
@@ -29,9 +20,7 @@ class ProductFactory extends Factory
      */
     public function definition(): array
     {
-        $product = [
-            'name' => $this->names[self::$counter]
-        ];
+        $product = ['name' => $this->names[self::$counter]];
 
         self::$counter += 1;
 
