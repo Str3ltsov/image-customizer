@@ -15,16 +15,16 @@ class ProductImageFactory extends Factory
 
     private array $srcs = [
         1 => [
-            'assets/volvo_s60/red_17inch.avif',
-            'assets/volvo_s60/red_18inch.avif'
+            'assets/volvo_s60/red_17inch.jpg',
+            'assets/volvo_s60/red_18inch.jpg'
         ],
         2 => [
-            'assets/volvo_s60/black_17inch.avif',
-            'assets/volvo_s60/black_18inch.avif'
+            'assets/volvo_s60/black_17inch.jpg',
+            'assets/volvo_s60/black_18inch.jpg'
         ],
         3 => [
-            'assets/volvo_s60/white_17inch.avif',
-            'assets/volvo_s60/white_18inch.avif',
+            'assets/volvo_s60/white_17inch.jpg',
+            'assets/volvo_s60/white_18inch.jpg',
         ]
     ];
 

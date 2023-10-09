@@ -19,3 +19,4 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::post('/change_product_image', [HomeController::class, 'changeProductImage'])->name('changeProductImage');
