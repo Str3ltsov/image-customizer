@@ -24,7 +24,7 @@
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
     @stack('scripts')
 </head>
-<body style="width: 100%; min-height: 100vh; display: flex; flex-direction: column; justify-content: center">
+<body style="width: 100%; min-height: 100vh; display: flex; flex-direction: column; align-items: center">
     @yield('content')
 </body>
 </html>
